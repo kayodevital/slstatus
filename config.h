@@ -73,7 +73,7 @@ static const struct arg args[] = {
 	//{ run_command, "%s |","nmcli -g connection device" },
 	//{ wifi_perc,    "Wi-Fi: %s% |", "wlp0s20f3" },
 	//{ run_command,	"Updates: %s |",  "mintupdate-cli list -d | wc -l"}, 
-	//{temp,		"CPU: %s°C |", "/sys/class/thermal/thermal_zone0/temp" },
+	{temp,		"%s°C |", "/sys/class/thermal/thermal_zone0/temp" },
 	//{temp,		"%s°C |", "/sys/class/thermal/thermal_zone1/temp" },
 	//{ run_command,  "VOL: %s |", "amixer sget Master | awk -F \"[][]\" '/%/ { print $2 }' | head -n1" },
 	//{ cpu_perc,     "CPU: %s%% |", NULL },
